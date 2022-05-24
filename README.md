@@ -1,6 +1,7 @@
 # Amazon_Vine_Analysis
 ## Project Overview
 The project we will use Pyspark to perform ETL process to get data that we chose to analyze from amazon database. I chose the video games database and provide some analysis. Based on the reviews given, I would like to determind if there is favorable review bias from vine members. 
+- Resources: https://www.amazon.com/vine/about
 
 ## Results
 - How many Vine reviews and non-Vine reviews were there?
@@ -26,4 +27,5 @@ In this dataset, we have about 38.73% 5 stars reviews in total reviews. About 51
 After analyzed this project. There are about 51.06% reviews in the vine program. Meanwhile only 38.70% reviews are not in the vine program. In this case, we have positivity bias for the Vine program. 
 
 In addition to the analysis, we could use some machine learning apply to the analysis by calculating the p-value and statistical distrubution of the 5 stars reviews between the vine program and non-vine program.
+
 
